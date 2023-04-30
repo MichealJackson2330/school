@@ -1,0 +1,43 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header"
+    "image_one information information"
+    "list video image_two"
+    "references references references"
+    "copyright copyright copyright";
+}
+
+.header {
+    grid-area: header;
+}
+
+.image_one {
+    grid-area: image_one;
+}
+
+.information {
+    grid-area: information;
+}
+
+.list {
+    grid-area: list;
+}
+
+.video {
+    grid-area: video;
+}
+
+.image_two {
+    grid-area: image_two;
+}
+
+.references {
+    grid-area: references;
+}
+
+.copyright {
+    grid-area: copyright;
+}
