@@ -27,8 +27,6 @@ body{
  
 .header {
     grid-area: header;
-    border: 1px solid #000000;
-    background-color: #000000;
     padding: 5px;
     text-align: center;
     color: aliceblue;
@@ -54,7 +52,6 @@ body{
     
 .robotics {
     grid-area: robotics;
-    background-color: #000000;
     padding-top: 50px;
     padding-right: 90px;
     text-align: center;
@@ -132,8 +129,6 @@ body{
 
 .reference {
     grid-area: reference;
-    border: 1px solid #000000;
-    background-color: #000000;
     padding: 40px;
     text-align: center;
     color: aliceblue;
