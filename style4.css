@@ -2,7 +2,7 @@
 
 :root {
     --main-bg-color: #e85d04;
-    --secondary-bg-color: #ffba08;
+    --secondary-bg-color: rgb(202, 40, 0);
 }
 
 body{
@@ -34,7 +34,7 @@ body{
     color: aliceblue;
     font-size: 40px;
     font-weight: 900;
-    background-color: var(--secondary-bg-color);
+    background-color: rgb(202, 40, 0);
     font-family: 'Caveat', cursive;
     border: 2px solid #000000;
 }
@@ -52,6 +52,7 @@ body{
     border: 2px solid #000000;
 }
     
+
 
 .robotics {
     grid-area: robotics;
@@ -105,7 +106,7 @@ body{
 
 .body {
     grid-area: body;
-    background-color: rgb(202, 40, 0);
+    background-color: #ff9000;
     padding: 100px;
     text-align: center;
     font-size: xx-large;
@@ -114,7 +115,7 @@ body{
     font-family: 'Caveat', cursive;
     border: 2px solid #000000;
 }
-
+ 
 .reference {
     grid-area: reference;
     border: 1px solid #000000;
