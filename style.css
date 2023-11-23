@@ -52,8 +52,6 @@ body{
     border: 2px solid #000000;
 }
     
-
-
 .robotics {
     grid-area: robotics;
     background-color: #000000;
@@ -132,7 +130,6 @@ body{
     
     }
 
-    
 .reference {
     grid-area: reference;
     border: 1px solid #000000;
