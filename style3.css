@@ -20,7 +20,8 @@ body{
     grid-template-areas:
         "header header header"
         "navbar navbar navbar"
-        "body body body_a"
+        "body body body"
+        "video video video"
         "reference reference reference";
     grid-gap: 5px;
 }
@@ -108,6 +109,18 @@ body{
     grid-area: body;
     background-color: #ff9000;
     padding: 100px;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: 900;
+    color: aliceblue;
+    font-family: 'Caveat', cursive;
+    border: 2px solid #000000;
+}
+
+.video {
+    grid-area: video;
+    background-color: #ffba08;
+    padding: 100px;
     text-align: center;
     font-size: xx-large;
     font-weight: 900;
@@ -116,23 +129,6 @@ body{
     border: 2px solid #000000;
 }
 
-.body_a {
-    grid-area: body_a;
-    background-color: #ffba08;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 900;
-    color: aliceblue;
-    font-family: 'Caveat', cursive;
-    border: 2px solid #000000;
-    
-    }
-
-    
 .reference {
     grid-area: reference;
     border: 1px solid #000000;
